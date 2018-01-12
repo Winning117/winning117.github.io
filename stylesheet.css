@@ -10,6 +10,10 @@ body {
 	min-width:800px;
 }
 
+span.category {
+	color: #366abc;
+}
+
 a:link {
 	color: #000000;
 	font-weight: bold;
@@ -100,6 +104,21 @@ div.body {
 	position: absolute;
 	left:50%;
 	background: grey;
+	transform: translate(-50%, 0%)
+}
+div.artworkbody {
+	margin-top:0cm;
+	text-align:center;
+	position: absolute;
+	left:50%;
+	transform: translate(-50%, 0%)
+}
+div.versionsbody {
+	margin-top:0cm;
+	text-align:center;
+	position: absolute;
+	left:50%;
+	background-color: rgba(74, 79, 89,0.8);
 	transform: translate(-50%, 0%)
 }
 
